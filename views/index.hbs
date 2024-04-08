@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  {{>navbar loginUser=loginUser}}
+  <section id="/">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>Savor Every Moment, Delivered to Your Doorstep</h1>
+            <p>Indulge in a world of flavors at your fingertips – Order scrumptious meals with ease!</p>
+            <div class="mt-4">
+              <form action="/foods/1">
+              <button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count1">4568</span>+
+            </h2>
+            <p>SAVINGS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count2">675</span>+
+            </h2>
+            <p>PHOTOS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count3">567</span>+
+            </h2>
+            <p>FOODS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count4">5673</span>+
+            </h2>
+            <p>CUSTOMERS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="about" class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="card col-md-7 ">
+          <img src="/static/image/img/img-1.png" class="img-fluid py-2" alt="">
+        </div>
+        <div class="col-md-5 mt-md-5 mt-1">
+          <h2>Culinary cravings? Let us handle the journey from stove to doorstep.</h2>
+          <p>Indulge in unparalleled convenience with our exceptional food delivery service app, bringing your favorite meals right to your doorstep.</p>
+          <button class="main-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="container">
+    <div class="row">
+      <div class="col-md-5 mt-md-5 pt-md-5">
+        <h2>Your hunger hero is here! Sit back, relax, and let us bring the feast to you, pronto</h2>
+        <p>From gourmet delights to comfort classics, indulge in a world of flavors delivered right to your door. With us, convenience meets culinary excellence, making every meal a delightful experience</p>
+        <div class="checks">
+          <span><i class="fa fa-check"></i> Timely delivery</span><br>
+          <span><i class="fa fa-check"></i> Customizable orders</span><br>
+          <span><i class="fa fa-check"></i> Regular discounts and offers</span>
+        </div>
+        <button class="main-btn">Learn More</button>
+      </div>
+      <div class="col-md-7">
+        <img src="/static/image/img/img-2.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="exploreFood">
+    <section class="container my-5">
+      <div class="text-center mx-md-5 px-md-5">
+        <h2 class="pb-0 mb-0">Explore Our Foods</h2>
+        <p>Whether you crave comfort food or crave exotic flavors, we bring you a world of options to your table, ensuring satisfaction with every bite. Elevate your dining experience with seamless ordering, swift delivery, and unparalleled quality, making us your ultimate destination for food exploration.</p>
+      </div>
+      <div class="row my-5 ">
+        <div class="col-md-4">
+          <div class="card ">
+            <img src="/static/image/img/img-3.jpg" class="img-fluid mb-2" alt="">
+            <h4>Rainbow Vegetable Sandwich</h4>
+            <p class="text-color">Time : 15-20 Minutes | Server 1</p>
+            <h2 class="primary-color mb-3"> <i class="fa fa-inr"></i>200 <del class="text-muted"><i
+                  class="fa fa-inr"></i>260</del></h2>
+            <div>
+              <button class="main-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card ">
+            <img src="/static/image/img/img-4.jpg" class="img-fluid mb-2" alt="">
+            <h4>Vegeterian Burger</h4>
+            <p class="text-color">Time : 30-35 Minutes | Server 1</p>
+            <h2 class="primary-color mb-3"> <i class="fa fa-inr"></i>120 <del class="text-muted"><i
+                  class="fa fa-inr"></i>160</del></h2>
+            <div>
+              <button class="main-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card ">
+            <img src="/static/image/img/img-5.jpg" class="img-fluid mb-2" alt="">
+            <h4>Raspberry Stuffed French Toast</h4>
+            <p class="text-color">Time : 15-20 Minutes | Server 1</p>
+            <h2 class="primary-color mb-3"> <i class="fa fa-inr"></i>280 <del class="text-muted"><i
+                  class="fa fa-inr"></i>325</del></h2>
+            <div>
+              <button class="main-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="testinomial">
+    <div class="container my-5 mx-md-5 px-md-5">
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item text-center active">
+            <img style="width:150px;height:auto;border-radius:50%" src="/static/image/review/review-1.jpg" alt="...">
+            <div class="my-4">
+              <h4 class="">Vaibhav Zambre</h4>
+              <p class="text-light">Chief Executive Officer</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center ">
+            <img style="width:150px;height:auto; border-radius:50%" src="/static/image/review/review-2.jpg" alt="...">
+            <div class="my-4">
+              <h4 class="">Samiksha Pawar</h4>
+              <p class="text-light">Chief Marketing Officer</p>
+            </div>
+          </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="subscription">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="mb-0">Hurry Up! Get 25% Off</h2>
+        <p class="text-color">Limmited time offer for this month.</p>
+        <div class="text-center my-5">
+          <form action="">
+            <div class="row">
+              <div class="col-md-4 offset-md-3 ">
+                          <input class="mt-1 form-control" type="text" placeholder="Enter Email Id...">
+              </div>
+               <div class="col-md-2 mt-2 ">
+                       <button class="main-btn">Subscribe</button>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+
+    <div class="text-center">
+      <a href="">Terms of Service</a>
+      <a href="">Help</a>
+      <a href="">Affilate</a>
+      <a href="">Contact</a><br>
+      <small class="mt-5 text-light">@ 2024. Urban Tadka. All rights reserved.</small>
+    </div>
+  </section>
+</body>
+
